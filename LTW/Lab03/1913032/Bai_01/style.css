@@ -1,0 +1,80 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    background-color: #B4AFA7;
+    font-size: 1em;
+    font-family: "Times New Roman", serif;
+}
+
+h2 {
+    margin: 15px 0;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.container {
+    width: 750px;
+    margin: 0 auto;
+}
+
+/* Style Header */
+header {
+    height: 50px;
+    background-color: #E3E3E3;
+}
+header h1 {
+    margin-left: 10px;
+    line-height: 50px;
+}
+
+/* Style Nav */
+nav {
+    background-color: #D3A8A7;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+nav ul li a {
+    display: inline-block;
+    padding: 10px;
+}
+
+.layout {
+    display: flex;
+}
+
+/* Style section main content */
+section.mainContent {
+    width: 520px;
+    background-color: #A5D0A7;
+    padding-left: 10px;
+}
+
+/* Style Aside */
+aside {
+    width: 230px;
+    background-color: #A7A8D2;
+    padding-left: 10px;
+}
+aside ul {
+    margin-left: 42px;
+}
+
+/* Style Footer */
+footer {
+    padding-left: 10px;
+    min-height: 40px;
+    background-color: #D2D1A6;
+    line-height: 40px;
+    font-size: 1.5em;
+}

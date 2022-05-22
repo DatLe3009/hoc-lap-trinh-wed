@@ -1,0 +1,133 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    font-family: "Time News Roman", serif;
+    font-size: 1em;
+    background-image: url("images/bg-body.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100% 770px;
+    color: #2C2C2C;
+}
+h1 {
+    color: #ABABAC;
+    line-height: 140px;
+    margin-left: 30px;
+    font-weight: normal;
+    font-style: italic;
+}
+p {
+    margin: 10px 0;
+}
+.container {
+    width: 700px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url("images/bg-header.jpg");
+    height: 140px;
+}
+
+nav {
+    background-image: linear-gradient(#777, #1A1A1A);
+    height: 50px;
+}
+ul {
+    list-style-type: none;
+}
+nav ul {
+    display: flex;
+}
+nav ul li a {
+    display: inline-block;
+    padding: 0 20px;
+    text-decoration: none;
+    color: #fff;
+    line-height: 50px;
+}
+nav ul li a:hover {
+    background: linear-gradient(#777 80%, #fff 20%);
+}
+
+.content {
+    display: flex;
+    padding: 0 15px;
+    background-color: #fff;
+}
+
+.content section {
+    background-image: url("images/bg-ad-top.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 70%;
+    text-align: justify;
+    margin-right: 30px;
+    
+}
+.content section h2 {
+    margin-top: 100px;
+    color: #B7C836;
+}
+
+.content section .time {
+    color: #C2BCBC;
+    letter-spacing: 0.1em;
+    font-size: 0.8em;
+}
+.content section .comment {
+    color: #7DCEE2;
+}
+.content section .comment::before {
+    content: url("images/icon-comment.png");
+    position: relative;
+    top: 7px;
+}
+
+.content div {
+    width: 30%;
+}
+.content div aside {
+    background-image: url("images/bg-feed.gif");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-color: #EFEFEF;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.content aside button {
+    display: block;
+    margin: auto;
+    border: none;
+}
+.content aside button img {
+    height: 25px;
+    width: 100px;
+    object-fit: cover;
+    object-position: 100% 0;
+}
+.content aside ul {
+    padding-bottom: 30px;
+}
+.content aside ul li a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    border-bottom: 2px solid #ddd;
+    padding: 5px;
+}
+
+footer {
+    min-height: 100px;
+    color: #fff;
+    background: url("images/bg-footer.jpg") center no-repeat;
+    padding-left: 30px;
+    padding-top: 60px;
+}

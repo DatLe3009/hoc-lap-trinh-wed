@@ -1,0 +1,13 @@
+#culculator {
+    margin: 50px auto;
+}
+#culculator table {
+    margin: auto;
+}
+
+table {
+    border: 10px solid #ccc;
+}
+button {
+    width: 100%;
+}
